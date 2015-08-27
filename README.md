@@ -1,7 +1,26 @@
-# echo-sonos
-Amazon Echo / Alexa integration with Sonos
+# "Enhanced" Echo-Sonos
 
-All of the pieces for an Amazon Echo (Alexa) <-> Sonos integration.  Originally I wanted to use IFTTT with the Maker plugin, but Maker's triggers weren't configurable enough.
+Which means I just added some additional functionality to rgraciano's Amazon Echo / Alexa integration with Sonos (from which this is forked).  
+
+Specifically, I added:
+- Ability to set groupVolume to absolute level (i.e., 0-100)
+  - Ex. command: "Alexa, tell Sonos to make level 35"
+- Ability to increase (+10) / decrease (-10) the volume for individual speakers 
+  - "Alexa, tell Sonos raise kitchen volume"
+- Ability to use playpause command so you can toggle / pause / resume music
+  - Ex. command: "Alexa, tell Sonos to resume."  
+- Ability to skip to next song 
+  - Ex. command: "Alexa, tell Sonos to skip to next song"
+- Ability to replay previous song
+  - Ex. command: "Alexa, tell Sonos to replay last song"
+- Added additonal control phrases to provide Echo with ability to understand different commands
+
+
+
+# THE REST OF THIS README IS JUST A COPY OF THE EXCELLECT INSTRUCTIONS FOUND IN RGRACIANO/ECHO-SONOS.  
+- Which I am including here because my version has several files ( specifically: utterances.txt, intents.json, and index.js) that were modified for the additional features described above.
+
+The instructions 
 
 Here's how it's used:
 
@@ -36,7 +55,10 @@ To set it up, you need to do the following:
 
 # Create the Alexa Skill that will send events to AWS Lambda
 1. Create a new Skill in the Alexa Skills control panel on Amazon. You need a developer account to do this.
-2. Name can be whatever you want. "Invocation" is what you say (I used "Sonos").
+2. Name can be whatever you want. "Invocation" is what you say (I used "Sonos").  
+         --- NOTE: I (infofiend) used "Blade" as the invocation because I felt that Echo had a little difficulty with "Sonos"---
+
+
 3. Put a dummy value in the Endpoint. We'll come back to this.
 4. Click Next, taking you to Interaction Model. Copy this repo's "echo/intents.json" into the "Intent Schema" field, and "echo/utterances.txt" into "Sample Utterances".
 5. Don't test yet, just save. Click back to "Skill Information" and copy the "Application ID". You'll need this for Lambda.
