@@ -1,54 +1,100 @@
 {
-    "test": {
+"fave songs": {
       "players": [
-        { "roomName": "Master Bedroom", "volume": 30}
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
       ],
-      "state": "PLAYING",
-      "favorite": "Rock",
-      "uri": "x-rincon-stream:RINCON_0000000000001500",
+      "state": "playing",
+      "favorite": "fave songs",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "SHUFFLE",
+      "pauseOthers": true
+    
+	},
+"other goodies": {
+      "players": [
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
+      ],
+      "state": "playing",
+      "favorite": "Other Goodies",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "SHUFFLE",
+      "pauseOthers": true
+    
+	},	
+"phoenix": {
+      "players": [
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
+      ],
+      "state": "playing",
+      "favorite": "Phoenix",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "NORMAL",
+      "pauseOthers": true
+    },
+"three seed": {
+      "players": [
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
+      ],
+      "state": "playing",
+      "favorite": "Three Seed",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "NORMAL",
+      "pauseOthers": true
+    },
+"miles davis": {
+      "players": [
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
+      ],
+      "state": "playing",
+      "favorite": "Miles",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "NORMAL",
+      "pauseOthers": true
+    },
+"way back": {
+      "players": [
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
+      ],
+      "state": "playing",
+      "favorite": "Way Back",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
       "playMode": "SHUFFLE",
       "pauseOthers": true
     },
-   "rap": {
+"two door": {
       "players": [
-        { "roomName": "Dining Room", "volume": 30},
-        { "roomName": "Living Room", "volume": 30},
-        { "roomName": "Master Bedroom", "volume": 30},
-        { "roomName": "Kitchen5", "volume": 40},
-        { "roomName": "KitchenWall", "volume": 50}
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
       ],
-      "state": "PLAYING",
-      "favorite": "Rap",
-      "uri": "x-rincon-stream:RINCON_0000000000001500",
-      "playMode": "SHUFFLE",
+      "state": "playing",
+      "favorite": "Two Door",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "NORMAL",
       "pauseOthers": true
     },
-    "pop rap": {
+"nola": {
       "players": [
-        { "roomName": "Dining Room", "volume": 30},
-        { "roomName": "Living Room", "volume": 30},
-        { "roomName": "Master Bedroom", "volume": 30},
-        {"roomName": "Kitchen5", "volume": 40},
-        {"roomName": "KitchenWall", "volume": 50}
+        { "roomName": "Kitchen", "volume": 30},        
+        { "roomName": "Bedroom", "volume": 30},
+        { "roomName": "Stereo", "volume": 70}        
       ],
-      "state": "PLAYING",
-      "favorite": "Rap (Pop)",
-      "uri": "x-rincon-stream:RINCON_0000000000001500",
-      "playMode": "SHUFFLE",
-      "pauseOthers": true
-    },
-    "rock": {
-      "players": [
-        { "roomName": "Dining Room", "volume": 30},
-        { "roomName": "Living Room", "volume": 30},
-        {"roomName": "Kitchen5", "volume": 40},
-        { "roomName": "Master Bedroom", "volume": 30},
-        {"roomName": "KitchenWall", "volume": 50}
-      ],
-      "state": "PLAYING",
-      "favorite": "Rock",
-      "uri": "x-rincon-stream:RINCON_0000000000001500",
-      "playMode": "SHUFFLE",
+      "state": "playing",
+      "favorite": "nola",
+      "uri": "x-rincon-stream:RINCON_0000000000001400",
+      "playMode": "NORMAL",
       "pauseOthers": true
     }
 }
