@@ -1,274 +1,64 @@
-PlayIntent start {fave songs|Preset}
-PlayIntent start {other goodies|Preset}
-PlayIntent start {phoenix|Preset}
-PlayIntent start {three seed|Preset}
-PlayIntent start {miles davis|Preset}
-PlayIntent start {way back|Preset}
-PlayIntent start {two door|Preset}
-PlayIntent start {nola|Preset}
-
-PauseIntent pause
-PauseIntent stop
-PauseIntent stop the music
-PauseIntent pause the music
-
-ToggleIntent resume
-ToggleIntent resume the music 
-ToggleIntent toggle
-ToggleIntent toggle the music
-ToggleIntent play 
-ToggleIntent play music
-
-LevelIntent make {zero|levelNumber}
-LevelIntent make {ten|levelNumber}
-LevelIntent make {fifteen|levelNumber}
-LevelIntent make {twenty|levelNumber}
-LevelIntent make {twenty five|levelNumber}
-LevelIntent make {thirty|levelNumber}
-LevelIntent make {thirty five|levelNumber}
-LevelIntent make {forty|levelNumber}
-LevelIntent make {forty five|levelNumber}
-LevelIntent make {fifty|levelNumber}
-LevelIntent make {fifty five|levelNumber}
-LevelIntent make {sixty|levelNumber}
-LevelIntent make {sixty five|levelNumber}
-LevelIntent make {seventy|levelNumber}
-LevelIntent make {seventy five|levelNumber}
-LevelIntent make {eighty|levelNumber}
-LevelIntent make {eighty five|levelNumber}
-LevelIntent make {ninety|levelNumber}
-LevelIntent make {ninety five|levelNumber}
-LevelIntent make {one hundred|levelNumber}
-
-VolumeDownIntent turn it down
-VolumeDownIntent turn music down
-VolumeDownIntent less volume
-VolumeDownIntent quieter
-
-VolumeUpIntent turn it up
-VolumeUpIntent turn music up
-VolumeUpIntent more volume
-VolumeUpIntent louder 
-
-NextSongIntent next
-NextSongIntent next song
-NextSongIntent skip 
-NextSongIntent skip song
-
-PreviousSongIntent replay
-PreviousSongIntent replay song
-PreviousSongIntent replay last song
-
-SpeakerVolDownIntent decrease {kitchen|speakerVDn}
-SpeakerVolDownIntent {kitchen|speakerVDn} down
-SpeakerVolDownIntent {kitchen|speakerVDn} volume down
-SpeakerVolDownIntent {kitchen|speakerVDn} sound down
-SpeakerVolDownIntent turn {kitchen|speakerVDn} down
-SpeakerVolDownIntent turn {kitchen|speakerVDn} volume down
-SpeakerVolDownIntent turn {kitchen|speakerVDn} sound down
-SpeakerVolDownIntent {kitchen|speakerVDn} quieter
-SpeakerVolDownIntent decrease {stereo|speakerVDn}
-SpeakerVolDownIntent {stereo|speakerVDn} down
-SpeakerVolDownIntent {stereo|speakerVDn} volume down
-SpeakerVolDownIntent {stereo|speakerVDn} sound down
-SpeakerVolDownIntent turn {stereo|speakerVDn} down
-SpeakerVolDownIntent turn {stereo|speakerVDn} volume down
-SpeakerVolDownIntent turn {stereo|speakerVDn} sound down
-SpeakerVolDownIntent {stereo|speakerVDn} quieter
-SpeakerVolDownIntent decrease {bedroom|speakerVDn}
-SpeakerVolDownIntent {bedroom|speakerVDn} down
-SpeakerVolDownIntent {bedroom|speakerVDn} volume down
-SpeakerVolDownIntent {bedroom|speakerVDn} sound down
-SpeakerVolDownIntent turn {bedroom|speakerVDn} down
-SpeakerVolDownIntent turn {bedroom|speakerVDn} volume down
-SpeakerVolDownIntent turn {bedroom|speakerVDn} sound down
-SpeakerVolDownIntent {bedroom|speakerVDn} quieter
-
-
-SpeakerVolUpIntent increase {kitchen|speakerVUp}
-SpeakerVolUpIntent {kitchen|speakerVUp} up
-SpeakerVolUpIntent {kitchen|speakerVUp} volume up
-SpeakerVolUpIntent {kitchen|speakerVUp} sound up
-SpeakerVolUpIntent turn {kitchen|speakerVUp} up
-SpeakerVolUpIntent turn {kitchen|speakerVUp} volume up
-SpeakerVolUpIntent turn {kitchen|speakerVUp} sound up
-SpeakerVolUpIntent {kitchen|speakerVUp} louder
-SpeakerVolUpIntent increase {stereo|speakerVUp}
-SpeakerVolUpIntent {stereo|speakerVUp} up
-SpeakerVolUpIntent {stereo|speakerVUp} volume up
-SpeakerVolUpIntent {stereo|speakerVUp} sound up
-SpeakerVolUpIntent turn {stereo|speakerVUp} up
-SpeakerVolUpIntent turn {stereo|speakerVUp} volume up
-SpeakerVolUpIntent turn {stereo|speakerVUp} sound up
-SpeakerVolUpIntent {stereo|speakerVUp} louder
-SpeakerVolUpIntent increase {bedroom|speakerVUp}
-SpeakerVolUpIntent {bedroom|speakerVUp} up
-SpeakerVolUpIntent {bedroom|speakerVUp} volume up
-SpeakerVolUpIntent {bedroom|speakerVUp} sound up
-SpeakerVolUpIntent turn {bedroom|speakerVUp} up
-SpeakerVolUpIntent turn {bedroom|speakerVUp} volume up
-SpeakerVolUpIntent turn {bedroom|speakerVUp} sound up
-SpeakerVolUpIntent {bedroom|speakerVUp} louder
-
-
-
-
-====
-
-
-
-PlayIntent start {fave songs|Preset}
-PlayIntent start {other goodies|Preset}
-PlayIntent start {phoenix|Preset}
-PlayIntent start {three seed|Preset}
-PlayIntent start {miles davis|Preset}
-PlayIntent start {way back|Preset}
-PlayIntent start {two door|Preset}
-PlayIntent start {nola|Preset}
-
-PauseIntent pause
-PauseIntent stop
-PauseIntent stop the music
-PauseIntent pause the music
-
-ToggleIntent resume
-ToggleIntent resume the music 
-ToggleIntent toggle
-ToggleIntent toggle the music
-ToggleIntent play 
-ToggleIntent play music
-
-LevelIntent set level {ten|Level}
-LevelIntent set level {twenty|Level}
-LevelIntent set level {thirty|Level}
-LevelIntent set level {forty|Level}
-LevelIntent set level {fifty|Level}
-LevelIntent set level {sixty|Level}
-LevelIntent set level {seventy|Level}
-LevelIntent set level {eighty|Level}
-LevelIntent set level {ninety|Level}
-LevelIntent set level {one hundred|Level}
-LevelIntent set level {twenty five|Level}
-LevelIntent set level {seventy five|Level}
-
-VolumeDownIntent turn it down
-VolumeDownIntent turn music down
-VolumeDownIntent make it softer
-VolumeDownIntent softer
-
-VolumeUpIntent turn it up
-VolumeUpIntent turn music up
-VolumeUpIntent make it louder 
-VolumeUpIntent louder 
-
-NextSongIntent next
-NextSongIntent next song
-NextSongIntent skip 
-NextSongIntent skip song
-
-PreviousSongIntent replay
-PreviousSongIntent replay song
-PreviousSongIntent replay last song
-
-KitchenVolDownIntent decrease kitchen
-KitchenVolDownIntent kitchen down
-KitchenVolDownIntent kitchen sound down
-
-KitchenVolUpIntent increase kitchen
-KitchenVolUpIntent kitchen up
-KitchenVolUpIntent kitchen sound up
-
-
-
-===========
-
-
-PlayIntent play {fave songs|Preset}
-PlayIntent play {other goodies|Preset}
-PlayIntent play {phoenix|Preset}
-PlayIntent play {three seed|Preset}
-PlayIntent play {miles|Preset}
-PlayIntent play {way back|Preset}
-
-PauseIntent pause
-PauseIntent stop
-PauseIntent stop the music
-PauseIntent pause the music
-
-ToggleIntent resume
-ToggleIntent resume the music 
-ToggleIntent toggle
-ToggleIntent toggle the music
-
-VolumeDownIntent group volume down
-VolumeDownIntent group softer
-VolumeDownIntent group quieter
-
-VolumeUpIntent group volume up
-VolumeUpIntent group louder
-VolumeUpIntent volume up
-
-NextSongIntent next
-NextSongIntent next song
-
-PreviousSongIntent previous
-PreviousSongIntent previous song
-PreviousSongIntent replay
-PreviousSongIntent replay song
-PreviousSongIntent replay last song
-
-KitchenVolDownIntent reduce kitchen
-KitchenVolDownIntent reduce kitchen sound
-KitchenVolDownIntent decrease kitchen sound
-KitchenVolDownIntent kitchen sound down
-
-KitchenVolUpIntent increase kitchen sound
-KitchenVolUpIntent kitchen sound up
-
-
-=============
-
-PlayIntent start {fave songs|Preset}
-PlayIntent start {other goodies|Preset}
-PlayIntent start {phoenix|Preset}
-PlayIntent start {three seed|Preset}
-PlayIntent start {miles|Preset}
-PlayIntent start {way back|Preset}
-
-PauseIntent pause
-PauseIntent stop
-PauseIntent stop the music
-PauseIntent pause the music
-
-ToggleIntent resume
-ToggleIntent resume the music 
-ToggleIntent toggle
-ToggleIntent toggle the music
-ToggleIntent play 
-ToggleIntent play music
-
-VolumeDownIntent turn it down
-VolumeDownIntent turn down music
-VolumeDownIntent softer music
-VolumeDownIntent quieter music
-
-VolumeUpIntent turn it up
-VolumeUpIntent turn up music
-VolumeUpIntent louder music
-
-NextSongIntent next
-NextSongIntent next song
-NextSongIntent skip 
-NextSongIntent skip song
-
-PreviousSongIntent replay
-PreviousSongIntent replay song
-PreviousSongIntent replay last song
-
-KitchenVolDownIntent decrease kitchen
-KitchenVolDownIntent kitchen down
-KitchenVolDownIntent kitchen sound down
-
-KitchenVolUpIntent increase kitchen
-KitchenVolUpIntent kitchen up
-KitchenVolUpIntent kitchen sound up
+{
+  "intents": [
+    {
+     "intent": "PlayIntent",
+     "slots": [
+        {
+          "name": "Preset",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "PauseIntent",
+      "slots": []
+    },
+    {
+      "intent": "ToggleIntent",
+      "slots": []
+    },
+   {
+     "intent": "LevelIntent",
+     "slots": [
+        {
+          "name": "levelNumber",
+          "type": "NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "VolumeDownIntent",
+      "slots": []
+    },
+    {
+      "intent": "VolumeUpIntent",
+      "slots": []
+    },
+    {
+      "intent": "NextSongIntent",
+      "slots": []
+    },
+    {
+      "intent": "PreviousSongIntent",
+      "slots": []
+    },
+    {
+      "intent": "SpeakerVolDownIntent",
+      "slots":  [
+        {
+          "name": "speakerVDn",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "SpeakerVolUpIntent",
+      "slots":  [
+        {
+          "name": "speakerVUp",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}
