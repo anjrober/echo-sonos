@@ -1,14 +1,15 @@
 {
-"fave songs": {
+"npr": {
       "players": [
         { "roomName": "Kitchen", "volume": 30},        
-        { "roomName": "Bedroom", "volume": 30},
-        { "roomName": "Stereo", "volume": 70}        
+        { "roomName": "Family Room", "volume": 30},
+        { "roomName": "Dining Room", "volume": 30},
+        { "roomName": "Living Room", "volume": 30}        
       ],
       "state": "playing",
-      "favorite": "fave songs",
+      "favorite": "WGBH",
       "uri": "x-rincon-stream:RINCON_0000000000001400",
-      "playMode": "SHUFFLE",
+      "playMode": "NORMAL",
       "pauseOthers": true
     
 	},
